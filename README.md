@@ -6,7 +6,7 @@
 ------------
 
 
-##Ceaser Chiper Algorithm (Sezar Şifreleme Algoritması)
+## Ceaser Chiper Algorithm (Sezar Şifreleme Algoritması)
 
 Türkçe karşılığı Sezar Şifreleme olan bu algoritma adından da anlaşılacağı üzere Jul Sezar tarafından oluşturulmuştur.Jul Sezar mesajlarının düşmanlarının eline geçirilebileceği tehlikesini düşünerek mesajlarında bu yöntemi kullanmıştır.Bu algoritma şifreleme algoritmalarının en çok bilinen ve kullanılan yöntemlerinden birisidir. Bu şifreleme yöntemi ile şifrelenmiş mesajlar , konuya hakim olmayan biri tarafından okunulduğu zaman gerçekten bir şey ifade etmeyecektir fakat konuya hakim olan birisi tarafından mesajın şifrelendiği algoritmanın Sezar şifreleme yöntemi olduğunu anlaması sadece bir kaç dakikasını alacaktır. Bu yönden basitlik tarafından algoritmayı yazmak ve mesajları şifrelemek hızlı fakat yine aynı basitlikten dolayı siber dünyada güçsüz bir algoritmadır.
 
