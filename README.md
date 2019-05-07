@@ -23,10 +23,12 @@ Sezar şifreleme algoritmasının çalışma yapısı oldukça basittir.Sezar al
 
 Algoritmada beni en çok etkileyen ve heyecanlandıran altında yatan matematik oldu.Lafı çok uzatmadan algoritmanın çalışma sistemine geçelim.
 
-###Matris Şifreleme Algoritması nasıl çalışır ? 
+### Matris Şifreleme Algoritması nasıl çalışır ? 
 
-####Şİfreleme İşlemi :
+#### Şİfreleme İşlemi :
+
 Öncelikle ;
+
 ![](https://cdn-images-1.medium.com/max/800/1*pLPeNbdE7fKRrF_6kK9VXQ.png)
 
 Böyle bir tablomuz olduğunu düşünelim ve her karakteri 10'luk tabanda bir sayıya eşitleyelim.
@@ -55,7 +57,7 @@ Daha sonrasında matrisi iyice karıştırmak için 2x2'lik anahtar matrisi yara
 Şifreli matris artık mesajımızın son hali. Görüldüğü üzere aynı olan harfler bile son şifreli matriste birbirlerinden alakasız sayılara dönüşüyorlar. Matris şifrelemenin de en güzel yanlarından birisi de bu.
 
 
-####Şifre Çözme İşlemi 
+#### Şifre Çözme İşlemi 
 
 Şifre çözme işleminde ise yine matris kurallarına başvuruyoruz.
 
@@ -76,7 +78,7 @@ A'nın Tersi ![](https://i.hizliresim.com/nQXGAR.png)
 
 Denklemini elde ederiz ve bu sayede şifre çözme işlemini gerçekleştiririz.
 
-####Neden 2x2 ve 2x3 Matrisler ?
+#### Neden 2x2 ve 2x3 Matrisler ?
 
 Bu algoritma için karşımıza çıkan bir kaç matematiksel zorluk var:
 
