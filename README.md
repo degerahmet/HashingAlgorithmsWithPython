@@ -1,4 +1,4 @@
-# Python ile Şifreleme Algoritmaları
+# Python ile Kriptografi Algoritmaları
 
 - Ceaser Chiper Algorithm (Sezar Şifreleme Algoritması)
 
