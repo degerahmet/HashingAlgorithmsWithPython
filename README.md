@@ -42,19 +42,16 @@ Eğer bu tablo yardımıyla DEGERR yazmak istersek ;
 
 Daha sonrasında matrisi iyice karıştırmak için 2x2'lik anahtar matrisi yaratıyoruz. Matrislerin boyutlarını neden böyle seçtiğimi ilerleyen başlıkta anlatacağım...
 
- **Anahtar matris** ![](https://i.hizliresim.com/r5AdmV.png)
+ **Anahtar Matris**  x **Şifresiz Matris** = **Şifreli Matris**
 
 
 İşleri biraz daha karıştırmak amacıyla Anahtar matris ile Şifresiz Matris'i çarpıyoruz.
 
-![](https://i.hizliresim.com/Baq99V.png)
+
+**Şifreli Matris** 
 
 
-
-**Şifreli Matris** ![](https://i.hizliresim.com/8aVE9A.png)
-
-
-Şifreli matris artık mesajımızın son hali. Görüldüğü üzere aynı olan harfler bile son şifreli matriste birbirlerinden alakasız sayılara dönüşüyorlar. Matris şifrelemenin de en güzel yanlarından birisi de bu.
+Şifreli matris artık mesajımızın son hali. Şifresiz matriste aynı olan harfler bile şifreli matriste birbirlerinden alakasız sayılara dönüşüyorlar. Matris şifrelemenin en güzel yanlarından birisi de bu.
 
 
 #### Şifre Çözme İşlemi 
@@ -68,13 +65,10 @@ A = Anahtar Matris![](https://i.hizliresim.com/r5AdmV.png)
 B = Şifresiz Matris ![](https://i.hizliresim.com/dv1qW7.png)
 C = Şifreli Matris  ![](https://i.hizliresim.com/8aVE9A.png)
 
-![](https://i.hizliresim.com/Baq99V.png) ise ;
+**A** X **B** = **C** ise ;
 
-
-A'nın Tersi ![](https://i.hizliresim.com/nQXGAR.png)
- 
- ![](https://i.hizliresim.com/MVOl62.png)
- A'nın Tersi * Şifreli Matris = Şifresiz Matris
+ ![](https://hizliresim.com/MVOl62)
+**A'nın Tersi** x **Şifreli Matris** = **Şifresiz Matris**
 
 Denklemini elde ederiz ve bu sayede şifre çözme işlemini gerçekleştiririz.
 
