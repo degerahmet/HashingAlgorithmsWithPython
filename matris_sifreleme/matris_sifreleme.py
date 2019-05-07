@@ -150,17 +150,11 @@ def encrypt(array):
         break
 
 
-    sol = sifre[0:2]
-    sag = sifre[2:4]
-    yeni_sol = []
-    yeni_sag = []
-    for i in range(2):
-        yeni_sol.append(int(sol[i]))
-    for i in range(2):
-        yeni_sag.append(int(sag[i]))
+    sol = list(map(int, sifre[0:2]))
+    sag = list(map(int, sifre[2:4]))
 
-    passarr = np.array([yeni_sol,yeni_sag])
-    array = np.matmul(passarr,array)
+    passarr = np.array([sol, sag])
+    array = np.matmul(passarr, array)
     print("Sifrelendikten sonra \n",array)
 
     return array
@@ -168,16 +162,10 @@ def encrypt(array):
 def decrypt(array):
     sifre = input("Dosyayı açmak için şifrenizi giriniz: ")
 
-    sol = sifre[0:2]
-    sag = sifre[2:4]
-    yeni_sol = []
-    yeni_sag = []
-    for i in range(2):
-        yeni_sol.append(int(sol[i]))
-    for i in range(2):
-        yeni_sag.append(int(sag[i]))
+    sol = list(map(int, sifre[0:2]))
+    sag = list(map(int, sifre[2:4]))
 
-    passarr = np.array([yeni_sol, yeni_sag])
+    passarr = np.array([sol, sag])
 
     passarr = np.linalg.inv(passarr)
 
