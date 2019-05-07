@@ -40,24 +40,17 @@ Eğer bu tablo yardımıyla DEGERR yazmak istersek ;
 68 69 71 69 82 82  gibi bir sayı kümesi elde ediyoruz.Bu sayı kümesini 2x3 'lük matrise çeviriyoruz.
 
 **Bu matris artık bizim şifresiz matrisimiz**  
-          68 69 71
-          69 82 82 
+      
 
 Daha sonrasında matrisi iyice karıştırmak için 2x2'lik anahtar matrisi yaratıyoruz. Matrislerin boyutlarını neden böyle seçtiğimi ilerleyen başlıklarda anlatacağım...
 
  **Anahtar Matris**  x **Şifresiz Matris** = **Şifreli Matris**
- 
- 1 9       68 69 71      689	807	809
- 2 3   x   69 82 82   =  343	384	388
  
 
 İşleri biraz daha karıştırmak amacıyla Anahtar matris ile Şifresiz Matris'i çarpıyoruz.
 
 
 **Şifreli Matris** 
-
-689	807	809
-343	384	388
 
 
 Şifreli matris artık mesajımızın son hali. Şifresiz matriste aynı olan harfler bile şifreli matriste birbirlerinden alakasız sayılara dönüşüyorlar. Matris şifrelemenin en güzel yanlarından birisi de bu.
