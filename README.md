@@ -17,6 +17,8 @@ Sezar şifreleme algoritmasının çalışma yapısı oldukça basittir.Sezar al
 ![Sezar Şifreleme (Ceaser Chiper)](https://cdn-images-1.medium.com/max/1600/1*I8BRRDM6HRBHjeExZ-sw-Q.jpeg "Sezar Şifreleme (Ceaser Chiper)")
 
 Şifreyi çözmek için ise anahtar sayısı ile şifreli mesajdaki her karakterin anahtar sayısı kadar geriye giderek ana mesajı dönüştürülmesi üzerinedir.
+
+
 # Matris Şifreleme Algoritması
 
 Öncelikle bu algoritmanın nereden geldiği ve kim tarafından üretildiğini bilmemekle beraber internette kriptografi ile ilgili araştırma yaptığım sırada denk geldiğim bir video ve forum yazısından dikkatimi çekti. Açıkcası algoritmanın Hill algoritmasına benzediğini söylersek çok da yanlış olmayacaktır.
@@ -37,18 +39,25 @@ Eğer bu tablo yardımıyla DEGERR yazmak istersek ;
 
 68 69 71 69 82 82  gibi bir sayı kümesi elde ediyoruz.Bu sayı kümesini 2x3 'lük matrise çeviriyoruz.
 
-**Bu matris artık bizim şifresiz matrisimiz** ![](https://i.hizliresim.com/dv1qW7.png)
+**Bu matris artık bizim şifresiz matrisimiz**  
+          68 69 71
+          69 82 82 
 
-
-Daha sonrasında matrisi iyice karıştırmak için 2x2'lik anahtar matrisi yaratıyoruz. Matrislerin boyutlarını neden böyle seçtiğimi ilerleyen başlıkta anlatacağım...
+Daha sonrasında matrisi iyice karıştırmak için 2x2'lik anahtar matrisi yaratıyoruz. Matrislerin boyutlarını neden böyle seçtiğimi ilerleyen başlıklarda anlatacağım...
 
  **Anahtar Matris**  x **Şifresiz Matris** = **Şifreli Matris**
-
+ 
+ 1 9       68 69 71      689	807	809
+ 2 3   x   69 82 82   =  343	384	388
+ 
 
 İşleri biraz daha karıştırmak amacıyla Anahtar matris ile Şifresiz Matris'i çarpıyoruz.
 
 
 **Şifreli Matris** 
+
+689	807	809
+343	384	388
 
 
 Şifreli matris artık mesajımızın son hali. Şifresiz matriste aynı olan harfler bile şifreli matriste birbirlerinden alakasız sayılara dönüşüyorlar. Matris şifrelemenin en güzel yanlarından birisi de bu.
