@@ -1,7 +1,9 @@
 # Python ile Kriptografi Algoritmaları
 
 - Ceaser Chiper Algorithm (Sezar Şifreleme Algoritması)
+- ROT13 Algoritması
 - Matris Şifreleme Algoritması
+
 
 ------------
 
@@ -19,7 +21,23 @@ Sezar şifreleme algoritmasının çalışma yapısı oldukça basittir.Sezar al
 Şifreyi çözmek için ise anahtar sayısı ile şifreli mesajdaki her karakterin anahtar sayısı kadar geriye giderek ana mesajı dönüştürülmesi üzerinedir.
 
 
-# Matris Şifreleme Algoritması
+## ROT13 Algoritması 
+
+ROT13 kısaltmasının uzun hali Rotate by 13 places yani 13'den döndür ya da 13.yerden döndür gibi bir anlamı vardır. Bu algoritma aslında özel bir Sezar şifreleme algoritmasıdır. 
+
+![ROT13](https://www.tutorialspoint.com/cryptography_with_python/images/rot.jpg)
+
+Her iki harf de kullanıldığı yere göre birbirini temsil eder. Yani kullanmak açık mesajımızda olan harfin karşılığı neyse kapalı mesajda o harf kullanılır.
+
+örn:
+DEGER
+QRTRE   mesela bu kelime için açık mesajımızdaki E'ler R yi gösterirken yine açık mesajımızdaki R bu sefer şifrelenirken E olarak çevirildi.
+
+Kullanışlı değildir ve kırılması kolay olan bir algoritmadır. 13 kaydırılarak kolayca çözülebilir.
+
+
+
+## Matris Şifreleme Algoritması
 
 Öncelikle bu algoritmanın nereden geldiği ve kim tarafından üretildiğini bilmemekle beraber internette kriptografi ile ilgili araştırma yaptığım sırada denk geldiğim bir video ve forum yazısından dikkatimi çekti. Açıkcası algoritmanın Hill algoritmasına benzediğini söylersek çok da yanlış olmayacaktır.
 
